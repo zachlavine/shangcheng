@@ -1,0 +1,44 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-03 16:31:27
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-03 19:21:15
+*/
+/*导航*/
+.wrap {
+	width: 100%;
+	background-color: #033970;
+}
+.body {
+	min-width: 1200px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #033970;
+}
+.top {
+	width: 1200px;
+	height: 125px;
+}
+.top img {
+	display: block;
+	float: left;
+	width: 95px;
+	height: 95px;
+	margin: 15px 0;
+}
+.top .nav {
+	overflow: hidden;
+	float: right;
+	height: 18px;
+	margin-top: 55px;
+}
+.top .nav a {
+	float: left;
+	height: 18px;
+	padding: 0 15px;
+	border-right: 1px dashed #3399cc;
+	font: normal bold 16px "Microsoft Yahei";
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+}

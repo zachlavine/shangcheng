@@ -1,0 +1,126 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-03 16:03:44
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-08 01:13:33
+*/
+.business_main {
+	width: 100%;
+	margin: 0 auto;
+}
+.part3, .part2, .part1 {
+	position: relative;
+	width: 1200px;
+	height: 399px;
+	margin-top: 20px;
+}
+.business_main .left {
+	position: absolute;
+	right: 0;
+	width: 346px;
+	height: 399px;
+	padding-right: 20px;
+	background-image: url("../images/italic3.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 2;
+}
+.business_main .right_img {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	width: 966px;
+	height: 100%;
+	z-index: 1;
+}
+.right_img .slide1 {
+	width: 3864px;
+	height: 399px;
+}
+.business_main .right_img img {
+	float: left;
+	width: 966px;
+	height: 399px;
+}
+.business_main .left_tab {
+	top: 0;
+	bottom: 0;
+	left: 18px;
+	margin: auto;
+	background-image: url(../images/left_tab1.png);
+	background-size: 100%;
+}
+.business_main .right_tab {
+	top: 0;
+	bottom: 0;
+	right: 340px;
+	margin: auto;
+	background-image: url(../images/right_tab2.png);
+	background-size: 100%;
+}
+.business_main .right span {
+	position: absolute;
+	display: block;
+	width: 38px;
+	height: 38px;
+	z-index: 55;
+	cursor: pointer;
+}
+.business_main .left span {
+	display: block;
+	float: right;
+	height: 80px;
+	margin-right: 5px;
+	font-size: 26px;
+	color: #586980;
+	line-height: 100px;
+}
+.business_main .left em {
+	display: block;
+	float: right;
+	height: 80px;
+	font-size: 44px;
+	color: #fff;
+	line-height: 91px;
+}
+.business_main .left strong {
+	display: block;
+	float: right;
+	height: 80px;
+	font-size: 56px;
+	color: #fff;
+	line-height: 81px;
+}
+.business_main .left h2 {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+	font: normal normal 22px "Microsoft Yahei";
+	text-align: right;
+	color: #fff;
+}
+.business_main .left p {
+	overflow: hidden;
+	float: right;
+	width: 70%;
+	height: 150px;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 30px;
+	color: #c4e8ff;
+}
+.business_footer {
+	width: 100%;
+	height: 85px;
+	margin: 0 auto;
+	background-color: #033970;
+	line-height: 85px;
+}
+.business_footer p {
+	width: 100%;
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+	/*font: normal normal 12px "Microsoft Yahei";*/
+	color: #fff;
+}

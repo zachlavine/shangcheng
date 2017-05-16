@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>地区</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../css/house.css" />
+	<link rel="icon" href="../images/sc.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/sc.ico" type="image/x-icon" />
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jfade.js"></script>
+</head>
+<body>
+	<div class="house_select_wrap wrap">
+		<div class="body">
+			<!-- 导航 -->
+			<div class="top">
+				<a href="../index.html#page1"><img src="../images/logo.png" alt="" /></a>
+				<div class="nav">
+					<a href="../index.html#page1">首页</a>
+					<a href="../index.html#page2?a=1">住宅地产</a>
+					<a href="../index.html#page3?a=2">商业地产</a>
+					<a href="../index.html#page4?a=3">美国房产的优势</a>
+					<a href="../index.html#page5?a=4">顾问团队</a>
+					<a href="../index.html#page6?a=5">海外投资流程</a>
+					<a href="../index.html#page7?a=6" style="border: none">联系我们</a>
+				</div>
+			</div>
+			<div class="house_select_main">
+			   <div class="house_select_main_left">
+					<img src="../images/home1.png" alt="" /> 
+					<span class="sbb_tab_left" id="tab_left"></span>
+					<span class="sbb_tab_right" id="tab_right"></span>
+				</div>
+				<div class="house_select_main_right">
+					<ul>
+						<li><img src="../images/select1.png" alt="" /></li>
+						<li><img src="../images/selec2.png" alt="" /></li>
+						<li><img src="../images/select3.png" alt="" /></li>
+						<li><img src="../images/select4.png" alt="" /></li>
+					</ul>
+					<div class="literal">
+						<h2>/ Mountain villa</h2>
+						<em>山庄别墅</em>
+						<p> 即别野，是居宅之外用来享受生活的居所，是第二居所而非第一居所。追溯其起源，并没有一个明确的时间起始点，我国古代也很早就出现了别墅，大的有帝王的行宫，将相的府邸，小的有富商巨贾地主乡绅的山庄、庄园。别墅在国外的出现已经有很长的历史，现代意义上的别墅主要是师承国外工业革命后的开发理念。按其所处的地理位置和功能的不同，又分为：山地别墅（包括森林别墅）、临水（江、湖、海）别墅、牧场（草原）别墅、庄园式别墅等</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>© 2015 ALL RIGHT RESERVED</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$().ready(function() {
+			$(".house_select_main_right img").jfade();
+			$(".house_select_main_right img").jfade({
+				start_opacity:".5",
+				high_opacity: "1",
+				low_opacity: ".2",
+				timing: "500"
+			});
+		});
+	</script>
+</body>
+</html>

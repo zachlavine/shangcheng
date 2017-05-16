@@ -1,0 +1,356 @@
+ 
+* @Author: anchen
+* @Date:   2017-05-03 16:02:27
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-15 17:48:03
+*/
+/*图片区域 住宅地产*/
+.house_main {
+	min-width: 1200px;
+	height: 936px;
+}
+.pics {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 75%;
+}
+.sub_tab_left {
+	/*position: absolute;*/
+	position: fixed;
+	left: 2%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_left.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.sub_tab_right {
+	/*position: absolute;*/
+	position: fixed;
+	right: 2%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_right.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.sbb_tab_left {
+	position: absolute;
+	/*position: fixed;*/
+	left: 2%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_left.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.sbb_tab_right {
+	position: absolute;
+	/*position: fixed;*/
+	right: 2%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_right.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.pic_main div {
+	position: relative;
+	float: left;
+	width: 8.33%;
+	height: 100%;
+}
+.pic_main {
+	float: left;
+	width: 200%;
+	height: 100%;
+}
+.pic_main div img {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.pic_main div h2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 15%;
+	font-size: 21.5px;
+	font-family: Helvetica BoldOblique;
+	text-align: center;
+	color: white;
+}
+.pic_main div em {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 25%;
+	font-size: 18px;
+	font-family: Adobe 黑体 Std R;
+	color: white;
+}
+
+
+
+/*住宅详情*/
+.house_detail_main {
+	/*position: relative;*/
+	width: 1200px;
+	height: 936px;
+	margin: 0 auto;
+}
+.pic_left {
+	position: relative;
+	/*left:0;*/
+	float: left;
+	width: 40%;
+	height: 936px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 0;
+	/*background: url(../images/chicago1.png) 0 0 no-repeat;*/
+}
+.pic_left h2 {
+	/*position: absolute;*/
+	/*top: 5%;*/
+	/*left: 5%;*/
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 31px;
+	font-family: Myriad Pro Regular;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.pic_left em {
+	/*position: absolute;*/
+	/*top: 10%;*/
+	/*left: 5%;*/
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 31px;
+	font-family: Adobe 黑体 Std R;
+	color: white;
+	text-align: center;
+}
+.pic_left p {
+	/*position: absolute;*/
+	/*top: 20%;*/
+	/*left: 5%;*/
+	/*right: 5%;*/
+	float: left;
+	/*width: 100%;*/
+	padding: 20px;
+	margin-top: 30px;
+	font-size: 12px;
+	font-family: 微软雅黑 Regular;
+	color: white;
+	line-height: 20px;
+}
+.pic_left .sb_tab_left {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_left.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.pic_left .sb_tab_right {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_right.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.pic_right {
+	float: left;
+	width: 60%;
+	height: 936px;
+}
+
+.pic_right img {
+	float: left;
+	width: 100%;
+	height: 100%;
+	
+}
+.house1, .house2, .house3, .house4 {
+	position:relative;
+}
+.pic_right em {
+	position: absolute;
+	right: 10%;
+	bottom: 10%;
+	font-family: Adobe 黑体 Std R;
+	font-size: 18px;
+	color: white;
+}
+.pic_right p {
+	position: absolute;
+	right: 25%;
+	bottom: 10%;
+	font-family: Helvetica BoldOblique;
+	font-size: 18px;
+	color: white;
+}
+.chicago1 {
+	/*position: absolute;*/
+	/*right: 0;*/
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+}
+.chicago1 div {
+	width: 100%;
+	height: 25%;
+}
+
+
+
+/*住宅选择*/
+.house_select_main {
+	position: relative;
+	width: 1200px;
+	height: 936px;
+	margin: 0 auto;
+}
+.house_select_main_left {
+	position: relative;
+	float: left;
+	width: 61.8%;
+	height: 936px;
+}
+.house_select_main_left .pic_left img {
+	width: 100%;
+	height: 100%;
+}
+.house_select_main_left .tab {
+	position: relative;
+	width: 100%;
+	height: 936px;
+}
+.house_select_main_left .tab_left {
+	position: absolute;
+	left: 15px;
+	top: 432px;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_left.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.house_select_main_left .tab_right {
+	position: absolute;
+	left: 685px;
+	top: 432px;
+	width: 38px;
+	height: 38px;
+	background: url(../images/tab_right.png) 0 0 no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+}
+.house_select_main_right ul {
+	float: left;
+	width: 38.2%;
+	height: 496px;
+}
+.house_select_main_right li {
+	float: left;
+	margin: 0 0 11px 11px;
+	width: 47%;
+	height: 47.9%;
+}
+.house_select_main_right li img {
+	width: 100%;
+	height: 100%;
+}
+
+.house_select_main_right .literal {
+	float: left;
+	margin-left: 11px;
+	width: 37%;
+	height: 440px;
+	background-color: #094b8e;
+}
+.house_select_main_right .literal h2 {
+	float: left;
+	margin: 10% 50% 10% 10%;
+	font-size: 21.5px;
+	font-family: Helvetica BoldOblique;
+	color: white;
+} 
+.house_select_main_right .literal em {
+	float: left;
+	margin: 0 50% 10% 10%;
+	font-size: 18px;
+	font-family: Adobe 黑体 Std R;
+	color: white;
+}
+.house_select_main_right .literal p {
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 12px;
+	font-family: 微软雅黑 Regular;
+	line-height: 30px;
+	color: white;
+}
+/*底部*/
+html {
+	height: 100%;
+	background-color: #033970;
+}
+.footer {
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	/*float: left;*/
+	width: 100%;
+	height: 48px;
+	background-color: #033970;
+}
+.footer p {
+	height: 48px;
+	text-align: center;
+	color: white;
+	line-height: 48px;
+}
+.footer_spe {
+	position: absolute;
+	bottom: 0;
+	/*float: left;*/
+	width: 100%;
+	height: 48px;
+	background-color: #033970;
+}
+.footer_spe p {
+	height: 48px;
+	text-align: center;
+	color: white;
+	line-height: 48px;
+}
